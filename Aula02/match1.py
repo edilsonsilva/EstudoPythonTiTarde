@@ -1,8 +1,8 @@
 print("Este programa analisa os valores digitado de 0 a 6 e diz o dia da semana")
-digito = input("Entre com um número de 0 a 6")
+digito = input("Entre com um número de 0 a 6   ")
 
 match digito:
-    case '0':
+    case '0' | '10':
         print("Domingo")
     case '1':
         print("Segunda-Feira")
