@@ -52,7 +52,8 @@ else:
 
 resultado = 0
 for i in range(0,10):
-    resultado+=int(cpf_calc[i]*peso11)
+    resultado+=int(cpf_calc[i])*peso11
+    peso11-=1
 
 resto = resultado % 11
 if(resto < 2 ):
